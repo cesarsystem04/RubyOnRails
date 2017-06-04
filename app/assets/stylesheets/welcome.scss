@@ -1,0 +1,282 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+    
+    text-align: left;   
+}
+
+#Principal{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 29px solid #99999;
+    background: #DDDDD;
+}
+
+
+#titulo{
+    
+    font: bold 36px verdana, sans-serif; 
+    text-shadow: rgb(150,150,150) 5px, 5px, 5px;
+}
+
+
+#InformacionGeneral{
+    
+    text-align: left;
+}
+
+
+.section-title {
+    display: block;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+
+.section-title-name {
+    position: relative;
+    z-index: 9;
+}
+
+
+.section-title-name h2 {
+    color: #2f3742;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+
+.section-title-name span {
+    background: #07cb79 none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px 20px;
+ text-align: left;
+}
+
+
+.title-name-gray {
+    left: 160px;
+    position: absolute;
+    top: 0;
+}
+
+
+.service-block {
+    margin-right: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.service-block span {
+    color: #a1aab6;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.service-block h2 {
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.service-block p {
+    margin-bottom: 60px;
+}
+.service-block .contact-button {
+    background: #07cb79 none repeat scroll 0 0;
+    bottom: 0;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+.service-block .contact-button:hover {
+    background: #2f3742 none repeat scroll 0 0;
+}
+
+
+.Rows {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.ti-desktop::before {
+    content: "";
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}
+.col-lg-12 {
+    width: 100%;
+}
+.col-lg-11 {
+    width: 91.6667%;
+}
+.col-lg-10 {
+    width: 83.3333%;
+}
+.col-lg-9 {
+    width: 75%;
+}
+.col-lg-8 {
+    width: 66.6667%;
+}
+.col-lg-7 {
+    width: 58.3333%;
+}
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-5 {
+    width: 41.6667%;
+}
+.col-lg-4 {
+    width: 33.3333%;
+}
+.col-lg-3 {
+    width: 25%;
+}
+.col-lg-2 {
+    width: 16.6667%;
+}
+.col-lg-1 {
+    width: 8.33333%;
+}
+.col-lg-pull-12 {
+    right: 100%;
+}
+.col-lg-pull-11 {
+    right: 91.6667%;
+}
+.col-lg-pull-10 {
+    right: 83.3333%;
+}
+.col-lg-pull-9 {
+    right: 75%;
+}
+.col-lg-pull-8 {
+    right: 66.6667%;
+}
+.col-lg-pull-7 {
+    right: 58.3333%;
+}
+.col-lg-pull-6 {
+    right: 50%;
+}
+.col-lg-pull-5 {
+    right: 41.6667%;
+}
+.col-lg-pull-4 {
+    right: 33.3333%;
+}
+.col-lg-pull-3 {
+    right: 25%;
+}
+.col-lg-pull-2 {
+    right: 16.6667%;
+}
+.col-lg-pull-1 {
+    right: 8.33333%;
+}
+.col-lg-pull-0 {
+    right: auto;
+}
+.col-lg-push-12 {
+    left: 100%;
+}
+.col-lg-push-11 {
+    left: 91.6667%;
+}
+.col-lg-push-10 {
+    left: 83.3333%;
+}
+.col-lg-push-9 {
+    left: 75%;
+}
+.col-lg-push-8 {
+    left: 66.6667%;
+}
+.col-lg-push-7 {
+    left: 58.3333%;
+}
+.col-lg-push-6 {
+    left: 50%;
+}
+.col-lg-push-5 {
+    left: 41.6667%;
+}
+.col-lg-push-4 {
+    left: 33.3333%;
+}
+.col-lg-push-3 {
+    left: 25%;
+}
+.col-lg-push-2 {
+    left: 16.6667%;
+}
+.col-lg-push-1 {
+    left: 8.33333%;
+}
+.col-lg-push-0 {
+    left: auto;
+}
+.col-lg-offset-12 {
+    margin-left: 100%;
+}
+.col-lg-offset-11 {
+    margin-left: 91.6667%;
+}
+.col-lg-offset-10 {
+    margin-left: 83.3333%;
+}
+.col-lg-offset-9 {
+    margin-left: 75%;
+}
+.col-lg-offset-8 {
+    margin-left: 66.6667%;
+}
+.col-lg-offset-7 {
+    margin-left: 58.3333%;
+}
+.col-lg-offset-6 {
+    margin-left: 50%;
+}
+.col-lg-offset-5 {
+    margin-left: 41.6667%;
+}
+.col-lg-offset-4 {
+    margin-left: 33.3333%;
+}
+.col-lg-offset-3 {
+    margin-left: 25%;
+}
+.col-lg-offset-2 {
+    margin-left: 16.6667%;
+}
+.col-lg-offset-1 {
+    margin-left: 8.33333%;
+}
+.col-lg-offset-0 {
+    margin-left: 0;
+}
+}
